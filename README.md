@@ -19,22 +19,15 @@ An LLM-powered routing layer that understands user intent and selects the correc
 ---
 
 ## System Architecture
-
-User
-↓
-FastAPI Server (/chat)
-↓
+```
+User 
+  ↓ 
+FastAPI Server (/chat) 
+  ↓ 
 LLM Router (Intelligent Decision Layer)
-↓
-┌───────────────────────┐
-│ │
-▼ ▼
-Product Agent Shipping Agent
-
-
----
-
-
+  ├── Product Agent
+  └── Shipping Agent
+```
 ---
 
 ## How It Works
@@ -92,7 +85,7 @@ This reflects the direction of production AI systems in industry today.
   "response": "iPhone 15 Pro costs $999 and is currently in stock."
 }
 ```
-
+---
 ## Key Concepts Demonstrated
 * LLM-based routing (intelligent decision layer)
 * Multi-agent system design
@@ -122,6 +115,7 @@ To simulate how production AI systems move from:
 
 simple rule-based logic → LLM-driven intelligent orchestration systems
 
+---
 ## How to Run the Project
 ### 1. Clone the repository
 ```
