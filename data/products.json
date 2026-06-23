@@ -1,0 +1,17 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": "$999",
+    "stock": true
+  },
+  {
+    "name": "Pixel 9",
+    "price": "$899",
+    "stock": false
+  },
+  {
+    "name": "MacBook Air M4",
+    "price": "$1199",
+    "stock": true
+  }
+]
